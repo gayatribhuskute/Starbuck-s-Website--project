@@ -1,0 +1,295 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f3eb;
+    color: #1e3932;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1e3932;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #1d3419;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-outline {
+    background-color: white;
+    color: #000;
+    border: 2px solid #000;
+}
+    /*Header*/
+.header{
+    background-color: #000;
+    color: #d4e9e2;
+    background: black;
+    color: white;
+    font:bold;
+    padding: 10px;
+    padding-left: 100px;
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #d4e9e2;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.hero-image img {
+    width: 300px;
+}
+
+/* Steps Section */
+section {
+    padding:10px 20px; 
+}
+
+/* Getting Started Section */
+#getting-started {
+    background-color: #ffffff;
+   }
+
+#getting-started h2 {
+    padding-left: 350px;
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#getting-started .steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.step {
+    width: 250px;
+}
+
+.step-circle {
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    line-height: 40px;
+    background-color: #f1f8f6;
+    color: rgb(0, 0, 0);
+    border: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #008248;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Favorites Section */
+#favorites {
+    background-color: #dcf4e8;
+    padding: 30px;
+}
+
+#favorites h2 {
+    height: 10px;
+    margin-top: -20px;
+    font-size: 28px;
+    font-weight: bold;
+    color:#1e3932;
+    padding-left: 350px;
+}
+
+#favorites .stars {
+    padding-left: 320px;
+    padding-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #055f37;
+}
+/* Customize Drink Section */
+.customize-drink {
+    background-color: #eefff9;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customize-drink .content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.customize-drink img {
+    width: 120px; /* Adjust based on design */
+}
+
+.customize-drink .text {
+    max-width: 400px;
+}
+
+           /* Endless Extras Section */
+.endless-extras {
+    text-align: center;
+    padding: 40px 10%;
+    background-color: #ffffff;
+}
+
+/* Align the features horizontally */
+.endless-extras .features {
+    display: flex;
+    justify-content: center;  /* Centers items horizontally */
+    gap: 40px;  /* Adds space between items */
+    margin-top: 20px;
+}
+
+/* Individual Feature Box */
+.feature {
+    width: 250px; /* Adjust size as needed */
+    text-align: center;
+}
+
+.feature img {
+    width: 100px; /* Adjust image size */
+    display: block;
+    margin: 0 auto 10px; /* Centers image */
+}
+
+.feature h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feature p {
+    font-size: 14px;
+}
+
+
+.rewards {
+    text-align: center;
+    padding: 40px 10%;
+    background-color: #fff;
+}
+
+.rewards h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.rewards p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Each Reward Box */
+.reward {
+    display: flex;
+    align-items: center;
+    background-color: #f4f1eb;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Icons */
+.reward img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+/* Text Styling */
+.reward-text h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #1e3932;
+}
+
+.reward-text h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reward-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .rewards-grid {
+        grid-template-columns: 1fr;
+    }
+}
